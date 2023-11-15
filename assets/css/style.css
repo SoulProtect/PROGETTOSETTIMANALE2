@@ -21,11 +21,11 @@ body {
 
 #logo {
   width: 15%;
-  padding: 3% 0 3% 8%;
+  padding: 3% 8%;
 }
 
 #container {
-  padding: 8%;
+  padding: 3% 0 3% 8%;
 }
 
 .bolder {
@@ -38,4 +38,12 @@ body {
 
 #instructions {
   color: #c2128d;
+}
+
+#list {
+  margin: 2rem 0 2rem;
+}
+
+form {
+  margin-top: 5rem;
 }
