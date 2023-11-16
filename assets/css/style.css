@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;700;900&display=swap");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  text-align: left;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: url(/assets/img/bg.jpg) no-repeat;
+  background-size: cover;
+  color: #e7e7eb;
+  padding: 3% 8%;
+  text-align: center;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 5%;
+}
+img {
+  width: 15%;
+}
+h3{
+    font-weight: 400;
+}
+
+h1{
+    margin-top: 0;
+}
+
+#button {
+  background-color: #00ffff;
+  cursor:pointer;
+  display: block;
+  margin: 20px auto;
+  border: 0;
+  color: #0B113B;
+  font-weight: 400;
+  box-shadow: rgba(0, 255, 255, 0.12) 0px 2px 30px 15px, rgba(0, 255, 255, 0.32) 0px 2px 30px 15px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  padding: 1% 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.rating-box{
+    padding: 40px 50px;
+}
+
+.rating-box .stars{
+    display: inline;
+    align-items: center;
+    gap: 25px;
+}
+
+.stars i{
+    color: #0c1447;
+    font-size: 50px;
+    cursor:pointer;
+    transition: color 0.2s ease;
+}
+
+.stars i.active{
+    color: #06FDFF;
+}
+
+textarea {
+    width: 50%; 
+    height: 150px;
+    padding: 12px; 
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 2px solid #C2168D;
+    color: #e7e7eb;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    overflow:hidden;
+  }
+
+textarea::placeholder {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
