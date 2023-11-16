@@ -17,9 +17,7 @@
     </header>
     <div id="container">
       <main>
-        <div id="title">
-          <h1>Welcome to <br /><span class="bolder">your exam</span></h1>
-        </div>
+        <h1>Welcome to <br /><span class="bolder">your exam</span></h1>
         <div id="pippo">
           <div id="top">
             <h2 id="instructions">Instructions</h2>
@@ -27,7 +25,7 @@
               We don't expect most engineers to know the answers to all of these
               questions, so don't worry if you're unsure of a few of them.
             </p>
-            <ul>
+            <ul id="list">
               <li>
                 Each question is <span class="bolder">timed</span> and can only
                 be
@@ -45,10 +43,11 @@
           </div>
         </div>
         <form>
-          <input type="checkbox" id="thick" name="form" />
-          <label for="promise"
-            >I promise to answer myself without help from anyone</label
-          >
+          <label class="labelContainer"
+            >I promise to answer myself without help from anyone
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
           <button id="button" type="button">PROCEED</button>
         </form>
       </main>
