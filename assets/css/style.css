@@ -43,19 +43,6 @@ p {
   font-weight: bold;
 }
 
-#button {
-  display: inline-block;
-  position: relative;
-  margin-left: 20em;
-  padding: 0.5em 1.5em;
-  cursor: pointer;
-  font-size: 1rem;
-  background-color: transparent;
-  border: solid 2px;
-  color: whitesmoke;
-  font-weight: 400;
-}
-
 #instructions {
   color: #c2128d;
   margin: 7px 0px;
@@ -67,6 +54,10 @@ p {
 
 form {
   margin-top: 6rem;
+}
+
+#pippo {
+  line-height: 1.5em;
 }
 
 .labelContainer {
@@ -136,6 +127,25 @@ form {
   transform: rotate(45deg);
 }
 
-#pippo {
-  line-height: 1.5em;
+#button {
+  display: inline-block;
+  position: relative;
+  margin-left: 20em;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: transparent;
+  border: solid 2px;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+/* Stile del pulsante quando è cliccabile */
+#button:enabled {
+  background-color: #00ffff;
+  border: none;
+  color: #0b133d;
+  font-weight: bold;
+  box-shadow: rgba(0, 255, 255, 0.12) 0px 2px 30px 15px,
+    rgba(0, 255, 255, 0.32) 0px 2px 30px 15px;
 }
